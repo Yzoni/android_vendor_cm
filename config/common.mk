@@ -136,22 +136,14 @@ PRODUCT_PACKAGES += \
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VoicePlus \
     Basic \
     libemoji
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    Trebuchet \
     AudioFX \
-    CMWallpapers \
-    CMFileManager \
-    Eleven \
-    LockClock \
-    CMUpdater \
-    CMAccount \
-    CMHome
+    LockClock
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
