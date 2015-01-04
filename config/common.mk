@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
 # Optional CM packages
 PRODUCT_PACKAGES += \
     Basic \
-    libemoji
+    libemoji \
+    Terminal
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
@@ -198,7 +199,6 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
     procmem \
     procrank \
-    Superuser \
     su
 endif
 
